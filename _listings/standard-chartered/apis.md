@@ -12,167 +12,152 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "4658"
 tags: Standard Chartered
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Standard Chartered Accounts
-  x-api-slug: standard-chartered
-  description: "The \u201CGetAccountBalance\u201D API upon successful user authentication
-    and entitlement checks will return the various types of \u201CAccount Balances\u201D
-    applicable for the specified Account Number."
+- name: Standard Chartered - Accounts
+  x-api-slug: cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get
+  description: The ???GetAccountBalance??? API upon successful user authentication
+    and entitlement checks will return the various types of ???Account Balances???
+    applicable for the specified Account Number.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/account
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Accounts, Account, View, Account
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get-openapi.md
-- name: Standard Chartered Finds all support transaction types for a given account
-  x-api-slug: standard-chartered
-  description: "The \u201CGetTransactionTypes\u201D API upon successful user authentication
+- name: Standard Chartered - Finds all support transaction types for a given account
+  x-api-slug: cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get
+  description: The ???GetTransactionTypes??? API upon successful user authentication
     and entitlement checks will return the supported transaction types for the specified
-    account"
+    account
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/transaction-request-types
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Accounts, Account, View, Transaction,
-    Request, Types
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get-openapi.md
-- name: Standard Chartered Account Details & Balances
-  x-api-slug: standard-chartered
+- name: Standard Chartered - Account Details & Balances
+  x-api-slug: cibservices2bapiv1banksscbaccountsviewidaccounts-get
   description: List available bank accounts
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/accounts/{viewId}/accounts
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Accounts, View, Accounts
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsviewidaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbaccountsviewidaccounts-get-openapi.md
-- name: Standard Chartered Bank Code Inquiry
-  x-api-slug: standard-chartered
-  description: "The \u201CGetBankCode\u201D API returns list of Bank Codes for the
-    specified combination of \u201CCountry\u201D, \u201CCity\u201D and \u201CBank\u201D
-    combination. The data will contain the \u201CBank Code(s)\u201D as well as the
-    address for the Bank & Branch."
+- name: Standard Chartered - Bank Code Inquiry
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultbranches-post
+  description: The ???GetBankCode??? API returns list of Bank Codes for the specified
+    combination of ???Country???, ???City??? and ???Bank??? combination. The data
+    will contain the ???Bank Code(s)??? as well as the address for the Bank & Branch.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/branches
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Branches
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultbranches-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultbranches-post-openapi.md
-- name: Standard Chartered Holiday Calendar Inquiry (Country)
-  x-api-slug: standard-chartered
-  description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays applicable
-    for the specified combination of:\n<ul><li>Country</li><li>Date Range</li></lu>"
+- name: Standard Chartered - Holiday Calendar Inquiry (Country)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Country</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/country/{country}
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Holay, Calendar,
-    Country, Country
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get-openapi.md
-- name: Standard Chartered Holiday Calendar Inquiry (Currency)
-  x-api-slug: standard-chartered
-  description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays applicable
-    for the specified combination of:\n<ul><li>Currency</li><li>Date Range</li></lu>"
+- name: Standard Chartered - Holiday Calendar Inquiry (Currency)
+  x-api-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
+  description: |-
+    The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+    <ul><li>Currency</li><li>Date Range</li></lu>
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/currency/{currency}
-  tags: Cib, Service, S2b, Api, V1, Banks, Scb, Reference, Default, Holay, Calendar,
-    Currency, Currency
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get-openapi.md
-- name: Standard Chartered Retrieve trade finance customer profile
-  x-api-slug: standard-chartered
+- name: Standard Chartered - Retrieve trade finance customer profile
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridprofile-get
   description: Retrieve trade finance customer profile
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/trade/{countryCode}/{customerId}/profile
-  tags: Cib, Service, S2b, Api, V1, Trade, Countrycode, Customer, Profile
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridprofile-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridprofile-get-openapi.md
-- name: Standard Chartered Retrieve trade finance limit details
-  x-api-slug: standard-chartered
+- name: Standard Chartered - Retrieve trade finance limit details
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridlimits-get
   description: Retrieve trade finance limit details
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/trade/{countryCode}/{customerId}/limits
-  tags: Cib, Service, S2b, Api, V1, Trade, Countrycode, Customer, Limits
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridlimits-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridlimits-get-openapi.md
-- name: Standard Chartered Retrieve all trade finance transaction status for the current
-    date (localised to tz)
-  x-api-slug: standard-chartered
+- name: Standard Chartered - Retrieve all trade finance transaction status for the
+    current date (localised to tz)
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridtransactions-get
   description: Retrieve all trade finance transaction status for the current date
     (localised to tz)
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/trade/{countryCode}/{customerId}/transactions
-  tags: Cib, Service, S2b, Api, V1, Trade, Countrycode, Customer, Transactions
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactions-get-openapi.md
-- name: Standard Chartered Retrieve trade finance transaction status for specific
+- name: Standard Chartered - Retrieve trade finance transaction status for specific
     transaction reference Id
-  x-api-slug: standard-chartered
+  x-api-slug: cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get
   description: Retrieve trade finance transaction status for specific transaction
     reference Id
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
   humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com////cib/service/s2b/api/v1/trade/{countryCode}/{customerId}/transaction/{transactionId}
-  tags: Cib, Service, S2b, Api, V1, Trade, Countrycode, Customer, Transaction, Transaction
+  baseURL: https://developer.sc.com//
+  tags: Financial Services, UK Banks, General Data, Relative Data, Banking
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/cibservices2bapiv1tradecountrycodecustomeridtransactiontransactionid-get-openapi.md
-- name: Standard Chartered
-  x-api-slug: standard-chartered
-  description: Standard Chartered PLC is a British multinational banking and financial
-    services company headquartered in London, England. It operates a network of more
-    than 1,200 branches and outlets (including subsidiaries, associates and joint
-    ventures) across more than 70 countries and employs around 87,000 people. It is
-    a universal bank with operations in consumer, corporate and institutional banking,
-    and treasury services. Despite its UK base, it does not conduct retail banking
-    in the UK, and around 90% of its profits come from Asia, Africa and the Middle
-    East.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/standard-charter.png
-  humanURL: https://developer.sc.com
-  baseURL: https://developer.sc.com//
-  tags: Standard Chartered
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/standard-chartered/master/_listings/standard-chartered/openapi.md
 x-common:
 - type: x-accessibility
   url: https://developer.sc.com/cib/#/accessibility
+- type: x-api-gallery
+  url: http://stack.exchange.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://standard.chartered.stack.network
 - type: x-applications
   url: https://developer.sc.com/cib/#/showcases
 - type: x-crunchbase

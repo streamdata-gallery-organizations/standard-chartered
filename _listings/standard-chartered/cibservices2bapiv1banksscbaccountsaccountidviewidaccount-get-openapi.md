@@ -4,9 +4,9 @@ x-collection-name: Standard Chartered
 x-complete: 0
 info:
   title: Standard Chartered Accounts
-  description: "The \u201CGetAccountBalance\u201D API upon successful user authentication
-    and entitlement checks will return the various types of \u201CAccount Balances\u201D
-    applicable for the specified Account Number."
+  description: The ???GetAccountBalance??? API upon successful user authentication
+    and entitlement checks will return the various types of ???Account Balances???
+    applicable for the specified Account Number.
   termsOfService: https://www.sc.com/terms-and-conditions
   contact:
     name: Steve Spicer
@@ -25,9 +25,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/account:
     get:
       summary: Accounts
-      description: "The \u201CGetAccountBalance\u201D API upon successful user authentication
-        and entitlement checks will return the various types of \u201CAccount Balances\u201D
-        applicable for the specified Account Number."
+      description: The ???GetAccountBalance??? API upon successful user authentication
+        and entitlement checks will return the various types of ???Account Balances???
+        applicable for the specified Account Number.
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewAccount
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get
       parameters:
@@ -43,6 +43,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b

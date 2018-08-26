@@ -23,9 +23,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/account:
     get:
       summary: Accounts
-      description: "The \u201CGetAccountBalance\u201D API upon successful user authentication
-        and entitlement checks will return the various types of \u201CAccount Balances\u201D
-        applicable for the specified Account Number."
+      description: The ???GetAccountBalance??? API upon successful user authentication
+        and entitlement checks will return the various types of ???Account Balances???
+        applicable for the specified Account Number.
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewAccount
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidaccount-get
       parameters:
@@ -41,6 +41,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -55,9 +57,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/accounts/{accountId}/{viewId}/transaction-request-types:
     get:
       summary: Finds all support transaction types for a given account
-      description: "The \u201CGetTransactionTypes\u201D API upon successful user authentication
+      description: The ???GetTransactionTypes??? API upon successful user authentication
         and entitlement checks will return the supported transaction types for the
-        specified account"
+        specified account
       operationId: getCibServiceS2bApiV1BanksScbAccountsAccountViewTransactionRequestTypes
       x-api-path-slug: cibservices2bapiv1banksscbaccountsaccountidviewidtransactionrequesttypes-get
       parameters:
@@ -73,6 +75,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -103,6 +107,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -116,16 +122,18 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/branches:
     post:
       summary: Bank Code Inquiry
-      description: "The \u201CGetBankCode\u201D API returns list of Bank Codes for
-        the specified combination of \u201CCountry\u201D, \u201CCity\u201D and \u201CBank\u201D
-        combination. The data will contain the \u201CBank Code(s)\u201D as well as
-        the address for the Bank & Branch."
+      description: The ???GetBankCode??? API returns list of Bank Codes for the specified
+        combination of ???Country???, ???City??? and ???Bank??? combination. The data
+        will contain the ???Bank Code(s)??? as well as the address for the Bank &
+        Branch.
       operationId: postCibServiceS2bApiV1BanksScbReferenceDefaultBranches
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultbranches-post
       responses:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -139,9 +147,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/country/{country}:
     get:
       summary: Holiday Calendar Inquiry (Country)
-      description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays
-        applicable for the specified combination of:\n<ul><li>Country</li><li>Date
-        Range</li></lu>"
+      description: |-
+        The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+        <ul><li>Country</li><li>Date Range</li></lu>
       operationId: getCibServiceS2bApiV1BanksScbReferenceDefaultHolayCalendarCountryCountry
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcountrycountry-get
       parameters:
@@ -155,6 +163,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -171,9 +181,9 @@ paths:
   /cib/service/s2b/api/v1/banks/scb/reference/default/holiday-calendar/currency/{currency}:
     get:
       summary: Holiday Calendar Inquiry (Currency)
-      description: "The \u201CGetHolidayCalendar\u201D API returns list of holidays
-        applicable for the specified combination of:\n<ul><li>Currency</li><li>Date
-        Range</li></lu>"
+      description: |-
+        The ???GetHolidayCalendar??? API returns list of holidays applicable for the specified combination of:
+        <ul><li>Currency</li><li>Date Range</li></lu>
       operationId: getCibServiceS2bApiV1BanksScbReferenceDefaultHolayCalendarCurrencyCurrency
       x-api-path-slug: cibservices2bapiv1banksscbreferencedefaultholidaycalendarcurrencycurrency-get
       parameters:
@@ -187,6 +197,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
@@ -217,6 +229,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Cib
       - Service
       - S2b
